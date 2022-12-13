@@ -96,7 +96,7 @@ p {
     width: 900px;
     background: #fff;
     margin: 0 auto;
-    padding: 75px;
+    padding: 75px 90px;
     box-shadow: 0 15px 16.83px .17px rgba(0, 0, 0, .05);
     -moz-box-shadow: 0 15px 16.83px .17px rgba(0, 0, 0, .05);
     -webkit-box-shadow: 0 15px 16.83px .17px rgba(0, 0, 0, .05);
@@ -113,6 +113,9 @@ p {
     padding: 16px;
 }
 
+.form-title {
+    margin-bottom: 33px!important;
+}
 
 figure {
     margin-bottom: 50px;

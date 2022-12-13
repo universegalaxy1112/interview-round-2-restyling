@@ -14,7 +14,7 @@ const Form1 = () => {
     <div className='container' style={{ background: colorBgContainer }}>
       <Row>
         <Col sm={24} md={12} className={"form-container"}>
-          <Title level={1} strong={true} className='form-title'>
+          <Title level={1} className='form-title'>
             Sign up
           </Title>
           <Form
@@ -49,7 +49,6 @@ const Form1 = () => {
               </label>
               <input type='password' name='re_pass' id='re_pass' placeholder='Repeat your password' />
             </div>
-            <div className='form-group'></div>
             <Form.Item name='disabled' valuePropName='checked'>
               <Checkbox>
                 I agree all statements in{" "}
