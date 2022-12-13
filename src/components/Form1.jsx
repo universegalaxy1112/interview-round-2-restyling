@@ -27,25 +27,25 @@ const Form1 = () => {
           >
             <div className='form-group'>
               <label htmlFor='name'>
-                <UserOutlined />
+                <UserOutlined className={"icons"} />
               </label>
               <input type='text' name='name' id='name' placeholder='Your Name' />
             </div>
             <div className='form-group'>
               <label htmlFor='email'>
-                <MailOutlined />
+                <MailOutlined className={"icons"} />
               </label>
               <input type='email' name='email' id='email' placeholder='Your Email' />
             </div>
             <div className='form-group'>
               <label htmlFor='pass'>
-                <LockFilled />
+                <LockFilled className={"icons"} />
               </label>
               <input type='password' name='pass' id='pass' placeholder='Password' />
             </div>
             <div className='form-group'>
               <label htmlFor='re-pass'>
-                <LockOutlined />
+                <LockOutlined className={"icons"} />
               </label>
               <input type='password' name='re_pass' id='re_pass' placeholder='Repeat your password' />
             </div>

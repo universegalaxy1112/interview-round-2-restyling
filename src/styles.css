@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Poppins:regular,bold,italic&subset=latin,latin-ext');
 
 * {
     margin: 0;
@@ -96,7 +96,7 @@ p {
     width: 900px;
     background: #fff;
     margin: 0 auto;
-    padding: 32px 64px;
+    padding: 75px;
     box-shadow: 0 15px 16.83px .17px rgba(0, 0, 0, .05);
     -moz-box-shadow: 0 15px 16.83px .17px rgba(0, 0, 0, .05);
     -webkit-box-shadow: 0 15px 16.83px .17px rgba(0, 0, 0, .05);
@@ -236,6 +236,9 @@ label.valid:after {
     font-size: 18px
 }
 
+.icons {
+    font-size: 12px;
+}
 
 @media screen and (max-width: 1200px) {
     .container {
